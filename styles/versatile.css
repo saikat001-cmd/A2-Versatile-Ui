@@ -578,7 +578,7 @@ input , select{
 
 }
 
-/* @media screen and (max-width:576px) {
+ @media screen and (max-width:576px) {
   .bmi-chart-section{
     width: 394px;
     height: 772px;
@@ -586,11 +586,56 @@ input , select{
 
 }
 .calculate-chart{
-  width: 577px;
-  height: 386px;
-  margin-left: -20%;
-  margin-top: 30%; 
-}  */
+  width: 354px;
+  height: 395px;
+  margin-left: 40px;
+ 
+  margin-top: 30px; 
+} 
+.calulate-title{
+  width: 354px;
+  height: 105px; 
+}
+.your{
+  width: 346px;
+  height: 72px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+}
+ .Calculator-Chart{
+  width: 353px;
+  height: 168px;
+ 
+}
+input , select{
+  width: 170.5px;
+  height: 48px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+}
+ 
+.id-2{
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  width: 345px;
+  height: 48px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+}
+ .calculate-btn{
+  width: 224px;
+  height: 54px;
+  border-radius: 42px;
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+  border: none;
+  size: 16px;
+}
+}
 
 
 
