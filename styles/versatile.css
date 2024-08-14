@@ -104,6 +104,56 @@
     border: none;
     /* padding: 8px 20px 8px 20px; */
   }
+
+  @media screen and (max-width:576px) {
+
+     .title{
+    width: 132px;
+    height: 44px;
+    font-size: 36px;
+    font-weight: 800;
+   margin-left: 10px;
+    color: rgb(230, 83, 60);
+
+  }
+  .banner{
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    width: 576px; 
+    height:0px;
+    background-color: #141414;
+}
+.banner-container{
+  width: 393px;
+  height: 1120px; 
+  margin: 0 auto;
+  background: linear-gradient(to bottom,#141414,#222222,#141414);
+  border: 2px solid red;
+}
+.nav-hamburger-menu{
+  display: none;
+}
+.btn-primary{
+  display: none;}
+  .nav-hamburger-menu{
+    display: block;
+    margin-right: 10px;
+  }
+  .navbar{
+    width: 393px;
+   
+    /* margin: 0 auto; */
+    /* border: 2px solid red ; */
+    display: flex;
+    justify-content:space-around;
+    align-items: center;  
+      
+  }
+   
+  
+}
+  /* main-1 */
+
   .stay-healthy{
     margin-left: 190px;
     margin-top: 68px;
@@ -205,6 +255,94 @@
   font-size: 16px;
   text-align: center;
   margin: 0 auto;
+}
+@media screen and (max-width:576px){
+  .container{
+    flex-direction: column;
+  }
+  .section-title{
+    width: 285px;
+    height: 129px;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 28px;
+  }
+  .stay-healthy{
+   margin: 51px 20px 48px 30px ;
+  
+  }
+  .health-description{
+    width: 274px;
+    height: 95px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom:28px ;
+  }
+  .text-button{
+    width: 169px;
+    height: 54px;
+    border-radius: 42px;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 18px;
+    margin-right: 14px;
+  }
+  .button-text{
+    width: 169px;
+    height: 54px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    background: none;
+    color: rgb(255, 255, 255);
+
+  }
+  .Two-Button{
+    display: flex;
+  }
+  .get-body img{
+    position: relative;
+    width:353px; 
+    height: 588px;
+   margin-top: -220px;
+   margin-left: 20px;
+  }
+  .box-1{ 
+    width:155.74px;
+    height: 72.58px;
+    margin-left:15px;
+    margin-top:-300px ; 
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+ 
+  }
+
+    
+
+.box-2{
+  width: 145.91px;
+  height: 74.09px;
+  margin-left: 220px;
+  margin-top: -280px; 
+
+}
+.number-2{
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
+} 
+.free-workout{
+  margin-top: 7px;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
 }
 
 /* Change Your Habits */
@@ -440,6 +578,22 @@ input , select{
 
 }
 
+/* @media screen and (max-width:576px) {
+  .bmi-chart-section{
+    width: 394px;
+    height: 772px;
+    border: 1px solid red;
+
+}
+.calculate-chart{
+  width: 577px;
+  height: 386px;
+  margin-left: -20%;
+  margin-top: 30%; 
+}  */
+
+
+
 /* Meet Our Team section */
 .team-section{
   width: 1060px;
@@ -650,12 +804,3 @@ input , select{
   margin: 0 auto;
   margin-top: 30px;
 }
-@media screen and (max-width:576px) {
-  .btn-primary{
-    display: none;}
-    .nav-hamburger-menu{
-      display: block;
-    }
- 
-  }
-  
