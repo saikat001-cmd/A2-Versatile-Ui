@@ -475,6 +475,26 @@ Mile Easily section */
   font-size: 14px;
   font-weight: 400; 
 } 
+@media screen and (max-width:576px){
+  .bmi-section{
+    width: 353px;
+    height: 124px;
+   
+  }
+  .bmi-title h3{
+    width: 353px;
+    height: 57px;
+    font-size: 32px;
+  }
+   
+   .bmi-title p{
+    width: 353px;
+    height: 72px; 
+    font-size: 14px;
+  } 
+
+}
+
 /* BMI Calculator Chart section  */
  .bmi-chart-section{
   /* display: flex; */
@@ -582,7 +602,7 @@ input , select{
   .bmi-chart-section{
     width: 394px;
     height: 772px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 .calculate-chart{
