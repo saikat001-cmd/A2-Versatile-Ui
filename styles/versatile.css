@@ -129,8 +129,6 @@
   margin: 0 auto;
   background: linear-gradient(to bottom,#141414,#222222,#141414);
 
-.nav-hamburger-menu{
-  display: none;
 }
 .btn-primary{
   display: none;}
@@ -147,12 +145,8 @@
       
   }
 
-   
-  
 }
-  }
-  /* main-1 */
-
+  
   .stay-healthy{
     margin-left: 190px;
     margin-top: 68px;
@@ -451,6 +445,50 @@ Mile Easily section */
   margin-left: 160px;
   margin-top: 30px;
   border-radius: 18px;
+}
+.run-button{
+  width: 200px;
+  height: 50px;
+  border-radius: 42px;
+  color: rgb(255, 255, 255);
+  border: none;
+}
+@media screen and (max-width:576px){
+  .run-section{
+    width: 353px;
+    height: 531px;
+  }
+  .run-title{
+    width: 287px;
+    height: 186px;
+
+  }
+  .run-easily{
+    width: 287px;
+    height: 76px;
+    font-size: 32px;
+  }
+  .run-description{
+    width: 287px;
+    height: 96px;
+    font-size: 14px;
+    margin-top: 14px;
+  }
+  .run-button{
+    width: 287px;
+    height: 54px;
+    font-size: 18px;
+    margin-top: 14px;
+  }
+  .run-image img{
+    width: 287px;
+    height: 170px;
+    margin-left: -308px;
+    margin-top: 320px;
+  
+  }
+
+
 }
 /* BMI Calculator section */
 .bmi-section{
