@@ -128,8 +128,7 @@
   height: 1120px; 
   margin: 0 auto;
   background: linear-gradient(to bottom,#141414,#222222,#141414);
-  border: 2px solid red;
-}
+
 .nav-hamburger-menu{
   display: none;
 }
@@ -598,9 +597,8 @@ input , select{
 
  @media screen and (max-width:576px) {
   .bmi-chart-section{
-    width: 394px;
+    width: 393px;
     height: 772px;
-    /* border: 1px solid red; */
 
 }
 .calculate-chart{
@@ -761,6 +759,39 @@ input , select{
   height: 485px;
   border-radius: 18px; 
   /* color: rgba(255, 255, 255, 0.5); */
+}
+@media screen and (max-width:576px) {
+  .fitness-tips-container{
+    width: 393px;
+    height: 680px;
+    /* border: 1px solid red; */
+
+}
+.fitness-tips-content{
+  width: 287px;
+  height: 186px;
+  
+}
+.simple{
+  width: 287px;
+  height: 96px; 
+  font-size: 32px;
+}
+.li-title{
+  width: 287px;
+  height: 96px;
+  font-size: 12px;
+  margin-top:55px;
+  margin-left: 15px;
+}
+.tips-image img{
+  flex-direction: column;
+  width: 390px;
+  height: 330px;
+  margin-top: 350px;
+  margin-left: -420px;
+  
+}
 }
 /* footer section */
 .footer-section{
