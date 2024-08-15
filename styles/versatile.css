@@ -800,6 +800,40 @@ input , select{
   padding-left: 20px;
   color: rgba(255, 255, 255, 0.5);
 }
+@media screen and (max-width:576px){
+  .team-section{
+    width: 393px;
+    height: 1960px;
+    /* border: 2px solid red; */
+
+}
+  .team-title{
+    width: 309px;
+    height: 124px;
+    /* border: 2px solid red; */
+  }
+  .our-team{
+    width: 243px;
+    height: 50px;
+    font-size: 32px;
+  }
+  .we-fitness{
+    width: 309px;
+    height: 72px;
+    font-size: 14px;
+  }
+  .image-section{
+    width: 353px;
+    height: 1830px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .img{
+    width: 313px;
+    height: 272px;
+  } 
+
+}
 /* 6 fitness tips section */
 .fitness-tips-container{
   width: 1440px;
