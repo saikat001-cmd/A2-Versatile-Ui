@@ -390,6 +390,7 @@
   display: grid;
   grid-template-columns: repeat(4 ,1fr);
 }
+
  .all-img ,.all-image{
   border-radius: 50%;
   text-align: center;
@@ -405,6 +406,45 @@
 .all-img p{
   color: rgba(255, 255, 255, 0.5);
 }
+@media screen and (max-width:576px){
+  .habits{
+    width: 338px;
+    height: 1398px;
+    border: 2px solid rgb(58, 49, 49);
+   
+}
+.habits-section{
+  width: 318px;
+  height: 124px;
+}
+.habits-section h1{
+  width: 318px;
+  height: 38px;
+  font-size: 32px;
+}
+.habits-section p{
+  width: 316px;
+height: 72px;
+font-size: 14px;
+}
+.img-section{
+  width: 338px;
+  height: 1216px;
+  display: grid;
+  grid-template-columns: repeat(1 ,1fr);
+}
+.all-img h1{
+
+  height: 36px;
+  font-size: 18px;
+}
+.all-img p{
+  width: 231px;
+  height: 36px;
+  font-size: 14px;
+}
+}
+ 
 /* Run an Extra
 Mile Easily section */
 .run-section{
